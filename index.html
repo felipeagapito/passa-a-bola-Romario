@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#05080d" />
+  <title>Passa a Bola, Romário · Copa Intelligence</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Passa a Bola, Romário · Atualização diária</p>
+        <h1>Radar inteligente da Copa do Mundo</h1>
+        <p class="hero-copy">Dashboard para acompanhar chaveamento, resultados, favoritos, zebras e sinais de risco com leitura editorial assistida por dados.</p>
+      </div>
+      <aside class="status-card">
+        <span class="status-dot"></span>
+        <div>
+          <strong id="updateMode">Carregando</strong>
+          <span id="lastUpdated">Sincronizando dados...</span>
+        </div>
+      </aside>
+    </header>
+
+    <section class="kpi-grid" id="kpis"></section>
+
+    <section class="panel wide">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Power Index</p>
+          <h2>Seleções vivas por força editorial</h2>
+        </div>
+        <span class="badge">Modelo v0.2</span>
+      </div>
+      <div id="powerRanking" class="ranking"></div>
+    </section>
+
+    <section class="grid-2">
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Próximos jogos</p>
+            <h2>Agenda crítica</h2>
+          </div>
+        </div>
+        <div id="upcomingMatches" class="match-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Alertas</p>
+            <h2>Zebras e favoritos frágeis</h2>
+          </div>
+        </div>
+        <div id="signals" class="signal-list"></div>
+      </section>
+    </section>
+
+    <section class="panel wide">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Mata-mata</p>
+          <h2>Chaveamento e resultados</h2>
+        </div>
+      </div>
+      <div id="bracket" class="bracket"></div>
+    </section>
+
+    <section class="panel wide">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Base de jogos</p>
+          <h2>Partidas monitoradas</h2>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Data</th><th>Fase</th><th>Jogo</th><th>Status</th><th>Vencedor</th></tr></thead>
+          <tbody id="matchesTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <strong>Passa a Bola, Romário · SAEL Copa Intelligence</strong>
+      <span>API key protegida em GitHub Secret. Site público para quem tiver o link.</span>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
