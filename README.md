@@ -1,10 +1,10 @@
-# SAEL Copa Intelligence — Auto Update v0.2
+# Passa a Bola, Romário — Copa Intelligence v0.2
 
 Dashboard estático da Copa do Mundo com atualização diária via GitHub Actions e publicação via GitHub Pages.
 
 ## O que este projeto faz
 
-- Publica um link acessível por amigos via GitHub Pages.
+- Publica um link acessível para amigos via GitHub Pages.
 - Roda um robô diário pelo GitHub Actions.
 - Atualiza `data/copa.json` antes do deploy.
 - Usa API-Football/API-Sports se `API_FOOTBALL_KEY` estiver configurada.
@@ -26,15 +26,13 @@ Dashboard estático da Copa do Mundo com atualização diária via GitHub Action
 
 ## Como publicar pelo celular
 
-1. Crie um repositório no GitHub, por exemplo: `sael-copa-intelligence`.
-2. Envie todos os arquivos deste ZIP para o repositório.
-3. Entre em **Settings > Pages**.
-4. Em **Build and deployment**, selecione **GitHub Actions**.
-5. Entre em **Actions** e rode manualmente `Daily Copa Intelligence Update & Deploy` pela primeira vez.
-6. O GitHub vai gerar um link parecido com:
+1. Entre em **Settings > Pages**.
+2. Em **Build and deployment**, selecione **GitHub Actions**.
+3. Entre em **Actions** e rode manualmente `Daily Copa Intelligence Update & Deploy` pela primeira vez.
+4. O GitHub vai gerar um link parecido com:
 
 ```txt
-https://SEU_USUARIO.github.io/sael-copa-intelligence/
+https://felipeagapito.github.io/passa-a-bola-Romario/
 ```
 
 ## Como ativar atualização real por API
@@ -59,12 +57,11 @@ API_FOOTBALL_SEASON = 2026
 
 ## Frequência
 
-O workflow está configurado para rodar todos os dias às 09:00 no fuso `America/Sao_Paulo`.
+O workflow está configurado para rodar diariamente em `0 12 * * *`, ou seja, 12:00 UTC. Na prática, isso equivale a aproximadamente 09:00 no horário de Brasília.
 
 ```yaml
 schedule:
-  - cron: '0 9 * * *'
-    timezone: 'America/Sao_Paulo'
+  - cron: "0 12 * * *"
 ```
 
 ## Segurança
