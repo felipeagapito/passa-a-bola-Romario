@@ -2,6 +2,9 @@ name: Daily Copa Intelligence Update & Deploy
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
     # 09:00 BRT = 12:00 UTC. GitHub cron usa UTC.
     - cron: "0 12 * * *"
