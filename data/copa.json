@@ -13,7 +13,7 @@
   ],
   "matches": [
     {"id":"53452545","date":"2026-06-28","time_brt":"16:00","round":"Round of 32","home":"South Africa","home_code":"RSA","away":"Canada","away_code":"CAN","status":"Complete","home_score":0,"away_score":1,"winner":"Canada","winner_code":"CAN","next_match_id":"53452511"},
-    {"id":"53452557","date":"2026-06-29","time_brt":"14:00","round":"Round of 32","home":"Brazil","home_code":"BRA","away":"Japan","away_code":"JPN","status":"Complete","home_score":2,"away_score":1,"winner":"Brazil","winner_code":"BRA","next_match_id":"53452517"},
+    {"id":"53452557","date":"2026-06-29","time_brt":"14:00","round":"Round of 32","home":"Brasil","home_code":"BRA","away":"Japan","away_code":"JPN","status":"Complete","home_score":2,"away_score":1,"winner":"Brasil","winner_code":"BRA","next_match_id":"53452517"},
     {"id":"53452541","date":"2026-06-29","time_brt":"17:30","round":"Round of 32","home":"Germany","home_code":"GER","away":"Paraguay","away_code":"PAR","status":"Complete","home_score":1,"away_score":1,"home_pen":3,"away_pen":4,"winner":"Paraguay","winner_code":"PAR","next_match_id":"53452509"},
     {"id":"53452547","date":"2026-06-29","time_brt":"22:00","round":"Round of 32","home":"Netherlands","home_code":"NED","away":"Morocco","away_code":"MAR","status":"Complete","home_score":1,"away_score":1,"home_pen":2,"away_pen":3,"winner":"Morocco","winner_code":"MAR","next_match_id":"53452511"},
     {"id":"53452561","date":"2026-06-30","time_brt":"14:00","round":"Round of 32","home":"Ivory Coast","home_code":"CIV","away":"Norway","away_code":"NOR","status":"Complete","home_score":1,"away_score":2,"winner":"Norway","winner_code":"NOR","next_match_id":"53452517"},
@@ -30,7 +30,7 @@
     {"id":"53452507","date":"2026-07-03","time_brt":"22:30","round":"Round of 32","home":"Colombia","home_code":"COL","away":"Ghana","away_code":"GHA","status":"Complete","home_score":1,"away_score":0,"winner":"Colombia","winner_code":"COL","next_match_id":"53452523"},
     {"id":"53452511","date":"2026-07-04","time_brt":"14:00","round":"Round of 16","home":"Canada","home_code":"CAN","away":"Morocco","away_code":"MAR","status":"Scheduled","next_match_id":"53452525"},
     {"id":"53452509","date":"2026-07-04","time_brt":"18:00","round":"Round of 16","home":"Paraguay","home_code":"PAR","away":"France","away_code":"FRA","status":"Scheduled","next_match_id":"53452525"},
-    {"id":"53452517","date":"2026-07-05","time_brt":"17:00","round":"Round of 16","home":"Brazil","home_code":"BRA","away":"Norway","away_code":"NOR","status":"Scheduled","next_match_id":"53452529"},
+    {"id":"53452517","date":"2026-07-05","time_brt":"17:00","round":"Round of 16","home":"Brasil","home_code":"BRA","away":"Norway","away_code":"NOR","status":"Scheduled","next_match_id":"53452529"},
     {"id":"53452519","date":"2026-07-05","time_brt":"21:00","round":"Round of 16","home":"Mexico","home_code":"MEX","away":"England","away_code":"ENG","status":"Scheduled","next_match_id":"53452529"},
     {"id":"53452513","date":"2026-07-06","time_brt":"16:00","round":"Round of 16","home":"Portugal","home_code":"POR","away":"Spain","away_code":"ESP","status":"Scheduled","next_match_id":"53452527"},
     {"id":"53452515","date":"2026-07-06","time_brt":"21:00","round":"Round of 16","home":"United States","home_code":"USA","away":"Belgium","away_code":"BEL","status":"Scheduled","next_match_id":"53452527"},
